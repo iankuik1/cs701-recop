@@ -1,4 +1,6 @@
 # CS701 Reactive CoProcessor Re-COP
+This is our implementation of a 4 Stage Reactive CoProcessor (ReCOP). It implements the ReCOP Instruction Set Architecture and is synthesized on a DE1-SOC FPGA. We have successfully managed to implement instructions such as Load, Store, ALU Operations and instructions such as LSIP (Read Signal Input) and SSOP (Send Signal Output), making it able to react to and influence external signals, to be used in a digital signal processing pipeline. 
+
 # How to start
 Instructions are to be entered in the .asm file found in recop/assembler. Run assembler.py to generate .mif file. Instruction format is identical to that of the given instruction set.
 
